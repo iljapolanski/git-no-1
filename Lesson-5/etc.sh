@@ -7,13 +7,10 @@ LIST=$(ls -lsa $DIRNAME)
 IFS=$'\n'
 for fileLine in $LIST 
 do
-    IFS=" "
-    for file in $fileLine
-    do
-        if [ -d "$DIRNAME/$file" ] 
-        then
-            echo "$fileLine"
-        fi
-    done
+    file=$(echo "$fileLine" | tr -s ' ' | cut -d ' ' -f 11)
+    if [ -d "$DIRNAME/$file" ]
+    then
+        echo "$fileLine"
+    fi
 done > etc_dir.txt
 

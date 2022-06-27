@@ -7,16 +7,13 @@ LIST=$(ls -lsa $DIRNAME)
 IFS=$'\n'
 for fileLine in $LIST 
 do
-    IFS=" "
-    for file in $fileLine
-    do
-        if [ -x "$DIRNAME/$file" ] 
+    file=$(echo "$fileLine" | tr -s ' ' | cut -d ' ' -f 11)
+    if [ -x "$DIRNAME/$file" ]
+    then
+        if [ -f "$DIRNAME/$file" ]
         then
-            if [ -f "$DIRNAME/$file" ]
-            then
-                echo "$fileLine"
-            fi
+            echo "$fileLine"
         fi
-    done
+    fi
 done > executable.txt
 

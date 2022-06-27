@@ -1,4 +1,5 @@
- 12 drwxrwxr-x 184 root     root      12288 июн 24 09:36 .
+total 1708
+ 12 drwxrwxr-x 184 root     root      12288 июн 26 19:34 .
   4 drwxr-xr-x  29 root     root       4096 июл 13  2021 ..
   4 drwxr-xr-x   3 root     root       4096 июн 13  2021 acpi
   4 drwxr-xr-x   3 root     root       4096 июн 13  2021 alsa
@@ -9,7 +10,7 @@
   4 drwxr-xr-x   3 root     root       4096 июн 13  2021 apparmor
   4 drwxr-xr-x   8 root     root       4096 июн 14 06:59 apparmor.d
   4 drwxr-xr-x   5 root     root       4096 мая 18 06:48 apport
-  4 drwxr-xr-x   7 root     root       4096 июн 26 07:36 apt
+  4 drwxr-xr-x   7 root     root       4096 июн 27 07:39 apt
   4 drwxr-xr-x   3 root     root       4096 июл  8  2021 avahi
   4 drwxr-xr-x   2 root     root       4096 мая 18 06:48 bash_completion.d
   4 drwxr-xr-x   2 root     root       4096 апр 20  2018 binfmt.d
@@ -34,7 +35,7 @@
   4 drwxr-xr-x   2 root     root       4096 дек 15  2021 cron.weekly
   4 drwxr-xr-x   3 root     root       4096 авг 28  2019 cryptoplugin
   4 drwxr-xr-x   2 root     root       4096 июн 13  2021 cryptsetup-initramfs
-  4 drwxr-xr-x   5 root     lp         4096 июн 26 08:21 cups
+  4 drwxr-xr-x   5 root     lp         4096 июн 27 07:41 cups
   4 drwxr-xr-x   2 root     root       4096 июн 13  2021 cupshelpers
   4 drwxr-xr-x   4 root     root       4096 фев 10  2019 dbus-1
   4 drwxr-xr-x   4 root     root       4096 фев 10  2019 dconf
@@ -42,8 +43,6 @@
   4 drwxr-xr-x   2 root     root       4096 июн  3 08:47 depmod.d
   4 drwxr-xr-x   4 root     root       4096 июн 13  2021 dhcp
   4 drwxr-xr-x   2 root     root       4096 июн 13  2021 dictionaries-common
-  4 drwx------   2 opendkim opendkim   4096 июн 13  2021 dkimkeys
-  4 drwx------   2 opendkim opendkim   4096 июн 13  2021 dkimkeys
   4 drwx------   2 opendkim opendkim   4096 июн 13  2021 dkimkeys
   4 drwxr-xr-x   4 root     root       4096 янв 13 13:25 dkms
   4 drwxrwxrwx   2 root     root       4096 ноя  4  2021 docker
@@ -84,6 +83,7 @@
   4 drwxr-xr-x   5 root     root       4096 дек 18  2021 java-8-openjdk
   4 drwxr-xr-x   8 root     root       4096 мая 20  2020 kernel
   4 drwxr-xr-x   3 root     root       4096 мая 18 06:48 ldap
+116 -rw-r--r--   1 root     root     117847 июн 24 09:36 ld.so.cache
   4 drwxr-xr-x   2 root     root       4096 мая 18 17:41 ld.so.conf.d
   4 drwxrwxrwx   9 root     root       4096 дек 15  2021 letsencrypt
   4 drwxr-xr-x   3 root     root       4096 фев 10  2019 libblockdev
@@ -109,8 +109,6 @@
   4 drwxrwxrwx  12 root     root       4096 апр 13 06:36 nginx
   4 drwxr-xr-x   2 root     root       4096 янв 14  2019 ODBCDataSources
   4 drwxr-xr-x   2 root     root       4096 июн 13  2021 openal
-  4 drwxr-xr-x   3 opendkim opendkim   4096 дек 20  2020 opendkim
-  4 drwxr-xr-x   3 opendkim opendkim   4096 дек 20  2020 opendkim
   4 drwxr-xr-x   3 opendkim opendkim   4096 дек 20  2020 opendkim
   4 drwxr-xr-x   2 root     root       4096 июн 13  2021 opensc
   4 drwxr-xr-x   5 root     root       4096 мар 25 06:15 openvpn
